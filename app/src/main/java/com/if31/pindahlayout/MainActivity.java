@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setTitle("layout A");
+
         btnPindah = findViewById(R.id.btn_pindah);
 
         btnPindah.setOnClickListener(new View.OnClickListener() {
